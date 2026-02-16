@@ -46,7 +46,7 @@ Esse comando executa:
 
 Arquivo esperado:
 
-    docs/prints/count_predicts.png
+    ![Report 1](docs/prints/count_predicts.png)
 
 ------------------------------------------------------------------------
 
