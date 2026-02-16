@@ -1,0 +1,17 @@
+{
+  "model_name": "RandomForestClassifier",
+  "model_version": "rf_v1",
+  "trained_at": "2026-02-16T14:21:03Z",
+  "rows_total": 118,
+  "rows_used": 118,
+  "classes": [
+    "engaged",
+    "normal",
+    "quick"
+  ],
+  "baseline_accuracy": 0.5416666666666666,
+  "baseline_f1_macro": 0.23423423423423426,
+  "rf_accuracy": 0.9166666666666666,
+  "rf_f1_macro": 0.6333333333333333,
+  "notes": "Target derivado por regra de duration_s em 3 classes (quick/normal/engaged). Dados são simulados; métricas podem variar com o volume e distribuição."
+}
