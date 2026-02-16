@@ -140,7 +140,7 @@ def main(limit: int = 500, model_version_override: Optional[str] = None) -> None
             print("Nenhuma interação nova para prever (tudo em dia).")
             return
 
-        print(f"Interações sem previsão encontradas: {len(rows)}")
+        print(f"Interações sem previsão encontradas: {len(rows)} (serão processadas agora)")
 
         preds = predict_batch(model_bundle, rows)
 

@@ -1,17 +1,36 @@
 {
   "model_name": "RandomForestClassifier",
-  "model_version": "rf_v1",
-  "trained_at": "2026-02-16T14:41:52Z",
-  "rows_total": 5363,
-  "rows_used": 5363,
-  "classes": [
+  "model_version": "rf_v2",
+  "trained_at": "2026-02-16T15:31:51Z",
+  "rows_total": 5543,
+  "rows_used": 5543,
+  "classes_order": [
     "engaged",
     "normal",
     "quick"
   ],
-  "baseline_accuracy": 0.34762348555452005,
-  "baseline_f1_macro": 0.1719686491470724,
-  "rf_accuracy": 1.0,
-  "rf_f1_macro": 1.0,
-  "notes": "Target derivado por regra de duration_s em 3 classes (quick/normal/engaged). Dados são simulados; métricas podem variar com o volume e distribuição."
+  "baseline_accuracy": 0.3552750225428314,
+  "baseline_f1_macro": 0.17476158793524063,
+  "rf_full_accuracy": 1.0,
+  "rf_full_f1_macro": 1.0,
+  "rf_no_duration_accuracy": 0.36699729486023447,
+  "rf_no_duration_f1_macro": 0.366154776307416,
+  "features_full": [
+    "presence",
+    "touch",
+    "voice_detected",
+    "duration_s",
+    "hour",
+    "weekday",
+    "is_peak_hour"
+  ],
+  "features_no_duration": [
+    "presence",
+    "touch",
+    "voice_detected",
+    "hour",
+    "weekday",
+    "is_peak_hour"
+  ],
+  "notes": "Sanity check incluído: treino adicional removendo duration_s para avaliar robustez quando a feature mais determinística do target não está presente. Em dados simulados, duration_s tende a dominar a separação das classes."
 }
