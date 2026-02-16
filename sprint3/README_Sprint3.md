@@ -46,7 +46,7 @@ Esse comando executa:
 
 Arquivo esperado:
 
-    ![Report 1](docs/prints/count_predicts.png)
+![Report 1](docs/prints/count_predicts.png)
 
 ------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ python -m sensor.simulate_sensor --bulk 5000 --devices 5 --days 7
 
 ### 📸 Prints relacionados
 
-    <img width="818" height="204" alt="count_predicts" src="https://github.com/user-attachments/assets/b8912f70-7377-4f13-ba45-aa5b4652c7c6" />
+<img width="818" height="204" alt="count_predicts" src="https://github.com/user-attachments/assets/b8912f70-7377-4f13-ba45-aa5b4652c7c6" />
 
 ------------------------------------------------------------------------
 
@@ -97,7 +97,7 @@ python -m sensor.simulate_sensor --bulk 5000 --devices 5 --days 7
 
 ### 📸 Evidências
 
-    <img width="818" height="204" alt="count_predicts" src="https://github.com/user-attachments/assets/3663c009-ced7-4a45-a0a5-54883f5ab5e8" />
+<img width="818" height="204" alt="count_predicts" src="https://github.com/user-attachments/assets/3663c009-ced7-4a45-a0a5-54883f5ab5e8" />
 
 ------------------------------------------------------------------------
 
@@ -123,11 +123,9 @@ python -m sensor.simulate_sensor --bulk 5000 --devices 5 --days 7
 
 ### 📸 Prints ML
 
-    <img width="738" height="782" alt="ml_train1" src="https://github.com/user-attachments/assets/906c87c3-1179-4082-9b99-d4a06d6734c7" />
-
-    <img width="788" height="500" alt="ml_train2" src="https://github.com/user-attachments/assets/50bc649b-dd4c-48f4-8ea7-c6a8b94974bc" />
-
-    <img width="255" height="138" alt="ml_artifacts" src="https://github.com/user-attachments/assets/00e07bcb-2ecf-41d7-9587-21cee661ea0a" />
+<img width="738" height="782" alt="ml_train1" src="https://github.com/user-attachments/assets/906c87c3-1179-4082-9b99-d4a06d6734c7" />
+<img width="788" height="500" alt="ml_train2" src="https://github.com/user-attachments/assets/50bc649b-dd4c-48f4-8ea7-c6a8b94974bc" />
+<img width="255" height="138" alt="ml_artifacts" src="https://github.com/user-attachments/assets/00e07bcb-2ecf-41d7-9587-21cee661ea0a" />
 
 
 Artifacts gerados:
@@ -149,7 +147,7 @@ Grava previsões no banco.
 
 ### 📸 Evidência
 
-    <img width="752" height="744" alt="ml_predict" src="https://github.com/user-attachments/assets/1be440c4-06ea-48ed-a5e0-c76d59263482" />
+<img width="752" height="744" alt="ml_predict" src="https://github.com/user-attachments/assets/1be440c4-06ea-48ed-a5e0-c76d59263482" />
 
 ------------------------------------------------------------------------
 
@@ -169,12 +167,12 @@ streamlit run dashboard/app.py
 
 ### 📸 Prints Dashboard
 
-    <img width="1677" height="871" alt="streamlit_visao_geral" src="https://github.com/user-attachments/assets/ddf9fc34-0e97-4a88-a08d-b71cd5766dba" />
-    <img width="1692" height="906" alt="streamlit_visao_geral2" src="https://github.com/user-attachments/assets/c81ab2f0-0d25-41a0-bb26-74d2bbc9fe96" />
-    <img width="1249" height="936" alt="streamlit_ml_visao_geral" src="https://github.com/user-attachments/assets/350773b0-097a-45d5-84d0-8672a03c8720" />
-    <img width="926" height="722" alt="streamlit_ml_matriz_confusao" src="https://github.com/user-attachments/assets/1a96c49f-6410-4cf5-869b-bdaebfb3f93e" />
-    <img width="927" height="503" alt="streamlit_ml_previsoes_banco" src="https://github.com/user-attachments/assets/360cf358-0a4f-44ba-bfdb-4ff1bb7219bf" />
-    <img width="929" height="568" alt="streamlit_ml_ultimas_previsoes" src="https://github.com/user-attachments/assets/1007b3f8-49f5-4cb5-a514-792034f287af" />
+<img width="1677" height="871" alt="streamlit_visao_geral" src="https://github.com/user-attachments/assets/ddf9fc34-0e97-4a88-a08d-b71cd5766dba" />
+<img width="1692" height="906" alt="streamlit_visao_geral2" src="https://github.com/user-attachments/assets/c81ab2f0-0d25-41a0-bb26-74d2bbc9fe96" />
+<img width="1249" height="936" alt="streamlit_ml_visao_geral" src="https://github.com/user-attachments/assets/350773b0-097a-45d5-84d0-8672a03c8720" />
+<img width="926" height="722" alt="streamlit_ml_matriz_confusao" src="https://github.com/user-attachments/assets/1a96c49f-6410-4cf5-869b-bdaebfb3f93e" />
+<img width="927" height="503" alt="streamlit_ml_previsoes_banco" src="https://github.com/user-attachments/assets/360cf358-0a4f-44ba-bfdb-4ff1bb7219bf" />
+<img width="929" height="568" alt="streamlit_ml_ultimas_previsoes" src="https://github.com/user-attachments/assets/1007b3f8-49f5-4cb5-a514-792034f287af" />
 
 ------------------------------------------------------------------------
 
@@ -192,10 +190,10 @@ Arquivo:
 
 ### 📸 Prints do Report
 
-    <img width="1058" height="964" alt="report md_1" src="https://github.com/user-attachments/assets/d6e499b5-c966-46e0-83fb-4334dfa1ac0f" />
-    <img width="1033" height="890" alt="report md_2" src="https://github.com/user-attachments/assets/e5cc4cfe-18ac-4e42-8beb-cb339eebbbd7" />
-    <img width="1080" height="872" alt="report md_3" src="https://github.com/user-attachments/assets/216bfb70-6df1-461f-9a47-f4f114e9adb7" />
-    <img width="1038" height="652" alt="report md_4" src="https://github.com/user-attachments/assets/80fc01f5-665c-48ef-9a90-4b7426040470" />
+<img width="1058" height="964" alt="report md_1" src="https://github.com/user-attachments/assets/d6e499b5-c966-46e0-83fb-4334dfa1ac0f" />
+<img width="1033" height="890" alt="report md_2" src="https://github.com/user-attachments/assets/e5cc4cfe-18ac-4e42-8beb-cb339eebbbd7" />
+<img width="1080" height="872" alt="report md_3" src="https://github.com/user-attachments/assets/216bfb70-6df1-461f-9a47-f4f114e9adb7" />
+<img width="1038" height="652" alt="report md_4" src="https://github.com/user-attachments/assets/80fc01f5-665c-48ef-9a90-4b7426040470" />
 
 ------------------------------------------------------------------------
 
