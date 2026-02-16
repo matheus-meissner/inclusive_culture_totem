@@ -2,7 +2,11 @@
 
 ## Integração Profissional: Sensores → Banco → ML → Dashboard → Report → Orquestração
 
-**Última atualização:** 2026-02-16 15:46:35 UTC
+Repositório geral: https://github.com/matheus-meissner/inclusive_culture_totem  
+Vídeo da Sprint 2: https://youtu.be/YS9H5aj9bus
+
+
+**Última atualização:** 2026-02-16 15:25:35 UTC
 
 ------------------------------------------------------------------------
 
