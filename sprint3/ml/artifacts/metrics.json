@@ -1,0 +1,36 @@
+{
+  "model_name": "RandomForestClassifier",
+  "model_version": "rf_v2",
+  "trained_at": "2026-02-16T17:43:14Z",
+  "rows_total": 5603,
+  "rows_used": 5603,
+  "classes_order": [
+    "engaged",
+    "normal",
+    "quick"
+  ],
+  "baseline_accuracy": 0.3559322033898305,
+  "baseline_f1_macro": 0.17500000000000002,
+  "rf_full_accuracy": 1.0,
+  "rf_full_f1_macro": 1.0,
+  "rf_no_duration_accuracy": 0.36931311329170385,
+  "rf_no_duration_f1_macro": 0.36654893644908815,
+  "features_full": [
+    "presence",
+    "touch",
+    "voice_detected",
+    "duration_s",
+    "hour",
+    "weekday",
+    "is_peak_hour"
+  ],
+  "features_no_duration": [
+    "presence",
+    "touch",
+    "voice_detected",
+    "hour",
+    "weekday",
+    "is_peak_hour"
+  ],
+  "notes": "Sanity check incluído: treino adicional removendo duration_s para avaliar robustez quando a feature mais determinística do target não está presente. Em dados simulados, duration_s tende a dominar a separação das classes."
+}
