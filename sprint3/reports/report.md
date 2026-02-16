@@ -1,6 +1,6 @@
 # Relatório Automático — Totem Inteligente Inclusivo (Sprint 3)
 
-**Gerado em (UTC):** 2026-02-16T15:31:51Z  
+**Gerado em (UTC):** 2026-02-16T17:43:14Z  
 **Banco:** `C:\Users\mathe\Desktop\matheus_meissner\dev\inclusive_culture_totem\sprint3\database\totem.db`  
 
 ---
@@ -21,15 +21,15 @@ Fontes (`source`): **simulated**
 
 | Indicador | Valor |
 |---|---:|
-| Eventos totais | 5543 |
-| Eventos válidos | 5543 |
+| Eventos totais | 5603 |
+| Eventos válidos | 5603 |
 | Eventos inválidos | 0 |
 | Taxa de validade | 100.0% |
-| Ativações (presença=1) | 5445 |
-| Taxa de presença | 98.2% |
-| Duração média (s) | 19.4 |
-| % com toque (touch=1) | 64.1% |
-| % com voz (voice_detected=1) | 24.8% |
+| Ativações (presença=1) | 5497 |
+| Taxa de presença | 98.1% |
+| Duração média (s) | 19.3 |
+| % com toque (touch=1) | 64.0% |
+| % com voz (voice_detected=1) | 24.7% |
 
 ---
 
@@ -54,14 +54,14 @@ Fontes (`source`): **simulated**
 
 **Modelo:** RandomForestClassifier  
 **Versão:** rf_v2  
-**Treinado em:** 2026-02-16T15:31:51Z  
-**Linhas usadas no treino:** 5543
+**Treinado em:** 2026-02-16T17:43:14Z  
+**Linhas usadas no treino:** 5603
 
 ### 4.1 Métricas (Baseline vs Modelo)
 | Indicador | Valor |
 |---|---:|
-| Baseline Accuracy (most_frequent) | 0.3553 |
-| Baseline F1-macro | 0.1748 |
+| Baseline Accuracy (most_frequent) | 0.3559 |
+| Baseline F1-macro | 0.1750 |
 | RF Accuracy | - |
 | RF F1-macro | - |
 
@@ -74,9 +74,9 @@ Fontes (`source`): **simulated**
 ### 5.1 Distribuição de classes previstas
 | Classe | Qtde |
 |---|---:|
-| quick | 1967 |
-| normal | 1857 |
-| engaged | 1719 |
+| quick | 1996 |
+| normal | 1882 |
+| engaged | 1725 |
 
 ### 5.2 Confiança média (probabilidade) por classe
 | Classe | Confiança (%) |
@@ -88,25 +88,25 @@ Fontes (`source`): **simulated**
 ### 5.3 Últimas previsões (amostra)
 | predicted_at | interaction_id | pred_label | pred_proba | duration_s | presence | touch | voice_detected | device_id | source |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-02-16 15:31:51 UTC | 5543 | normal | 0.8911 | 10 | 1 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5542 | normal | 0.8956 | 18 | 1 | 1 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5541 | quick | 0.9252 | 3 | 1 | 1 | 1 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5540 | quick | 0.9401 | 1 | 1 | 0 | 1 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5539 | quick | 0.9404 | 2 | 1 | 1 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5538 | quick | 0.9252 | 4 | 1 | 1 | 1 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5537 | quick | 0.9765 | 1 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5536 | quick | 0.9371 | 5 | 1 | 1 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5535 | quick | 0.9765 | 0 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 15:31:51 UTC | 5534 | quick | 0.9765 | 2 | 0 | 0 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5603 | quick | 0.9497 | 5 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5602 | normal | 0.9303 | 12 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5601 | normal | 0.8366 | 11 | 1 | 1 | 1 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5600 | quick | 0.9328 | 4 | 1 | 0 | 1 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5599 | quick | 0.9497 | 5 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5596 | quick | 0.9497 | 2 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5594 | normal | 0.9303 | 18 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5595 | normal | 0.8370 | 6 | 1 | 0 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5597 | normal | 0.8103 | 6 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 17:43:14 UTC | 5598 | quick | 0.9497 | 4 | 1 | 1 | 0 | simulator-01 | simulated |
 
 ---
 
 ## 6) Insights (para decisão / impacto)
 
-- **Uso**: 5543 eventos registrados (100.0% válidos) no período analisado.
-- **Presença detectada**: 5445 ocorrências (98.2% dos eventos).
-- **Interação média**: 19.4s por evento; toque em 64.1% e voz em 24.8%.
-- **Classe prevista dominante**: `quick` (1967 previsões).
+- **Uso**: 5603 eventos registrados (100.0% válidos) no período analisado.
+- **Presença detectada**: 5497 ocorrências (98.1% dos eventos).
+- **Interação média**: 19.3s por evento; toque em 64.0% e voz em 24.7%.
+- **Classe prevista dominante**: `quick` (1996 previsões).
 - **Horário de pico** (presença): **13h** com **1** ativações.
 
 **Interpretação prática:**  
