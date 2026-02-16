@@ -1,6 +1,6 @@
 # Relatório Automático — Totem Inteligente Inclusivo (Sprint 3)
 
-**Gerado em (UTC):** 2026-02-16T14:57:20Z  
+**Gerado em (UTC):** 2026-02-16T15:31:51Z  
 **Banco:** `C:\Users\mathe\Desktop\matheus_meissner\dev\inclusive_culture_totem\sprint3\database\totem.db`  
 
 ---
@@ -21,14 +21,14 @@ Fontes (`source`): **simulated**
 
 | Indicador | Valor |
 |---|---:|
-| Eventos totais | 5363 |
-| Eventos válidos | 5363 |
+| Eventos totais | 5543 |
+| Eventos válidos | 5543 |
 | Eventos inválidos | 0 |
 | Taxa de validade | 100.0% |
-| Ativações (presença=1) | 5290 |
-| Taxa de presença | 98.6% |
-| Duração média (s) | 19.7 |
-| % com toque (touch=1) | 64.2% |
+| Ativações (presença=1) | 5445 |
+| Taxa de presença | 98.2% |
+| Duração média (s) | 19.4 |
+| % com toque (touch=1) | 64.1% |
 | % com voz (voice_detected=1) | 24.8% |
 
 ---
@@ -53,17 +53,17 @@ Fontes (`source`): **simulated**
 **Target:** `quick` (≤5s), `normal` (6–20s), `engaged` (≥21s).
 
 **Modelo:** RandomForestClassifier  
-**Versão:** rf_v1  
-**Treinado em:** 2026-02-16T14:41:52Z  
-**Linhas usadas no treino:** 5363
+**Versão:** rf_v2  
+**Treinado em:** 2026-02-16T15:31:51Z  
+**Linhas usadas no treino:** 5543
 
 ### 4.1 Métricas (Baseline vs Modelo)
 | Indicador | Valor |
 |---|---:|
-| Baseline Accuracy (most_frequent) | 0.3476 |
-| Baseline F1-macro | 0.1720 |
-| RF Accuracy | 1.0000 |
-| RF F1-macro | 1.0000 |
+| Baseline Accuracy (most_frequent) | 0.3553 |
+| Baseline F1-macro | 0.1748 |
+| RF Accuracy | - |
+| RF F1-macro | - |
 
 > Observação: recomenda-se sempre comparar com baseline para evidenciar ganho real do modelo.
 
@@ -74,39 +74,39 @@ Fontes (`source`): **simulated**
 ### 5.1 Distribuição de classes previstas
 | Classe | Qtde |
 |---|---:|
-| quick | 1865 |
-| normal | 1798 |
-| engaged | 1700 |
+| quick | 1967 |
+| normal | 1857 |
+| engaged | 1719 |
 
 ### 5.2 Confiança média (probabilidade) por classe
 | Classe | Confiança (%) |
 |---|---:|
-| engaged | 97 |
+| engaged | 96 |
 | quick | 95 |
-| normal | 87 |
+| normal | 85 |
 
 ### 5.3 Últimas previsões (amostra)
 | predicted_at | interaction_id | pred_label | pred_proba | duration_s | presence | touch | voice_detected | device_id | source |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-02-16 14:43:09 UTC | 2331 | engaged | 0.9911 | 36 | 1 | 1 | 0 | simulator-05 | simulated |
-| 2026-02-16 14:43:09 UTC | 325 | quick | 0.9851 | 1 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 324 | quick | 0.9689 | 4 | 1 | 1 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 321 | normal | 0.8969 | 12 | 1 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 319 | quick | 0.9851 | 0 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 320 | normal | 0.9362 | 14 | 1 | 1 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 318 | quick | 0.9851 | 0 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 322 | quick | 0.9672 | 2 | 1 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 323 | quick | 0.9851 | 0 | 0 | 0 | 0 | simulator-01 | simulated |
-| 2026-02-16 14:43:09 UTC | 317 | normal | 0.7892 | 6 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5543 | normal | 0.8911 | 10 | 1 | 0 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5542 | normal | 0.8956 | 18 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5541 | quick | 0.9252 | 3 | 1 | 1 | 1 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5540 | quick | 0.9401 | 1 | 1 | 0 | 1 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5539 | quick | 0.9404 | 2 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5538 | quick | 0.9252 | 4 | 1 | 1 | 1 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5537 | quick | 0.9765 | 1 | 0 | 0 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5536 | quick | 0.9371 | 5 | 1 | 1 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5535 | quick | 0.9765 | 0 | 0 | 0 | 0 | simulator-01 | simulated |
+| 2026-02-16 15:31:51 UTC | 5534 | quick | 0.9765 | 2 | 0 | 0 | 0 | simulator-01 | simulated |
 
 ---
 
 ## 6) Insights (para decisão / impacto)
 
-- **Uso**: 5363 eventos registrados (100.0% válidos) no período analisado.
-- **Presença detectada**: 5290 ocorrências (98.6% dos eventos).
-- **Interação média**: 19.7s por evento; toque em 64.2% e voz em 24.8%.
-- **Classe prevista dominante**: `quick` (1865 previsões).
+- **Uso**: 5543 eventos registrados (100.0% válidos) no período analisado.
+- **Presença detectada**: 5445 ocorrências (98.2% dos eventos).
+- **Interação média**: 19.4s por evento; toque em 64.1% e voz em 24.8%.
+- **Classe prevista dominante**: `quick` (1967 previsões).
 - **Horário de pico** (presença): **13h** com **1** ativações.
 
 **Interpretação prática:**  
