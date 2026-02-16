@@ -46,7 +46,7 @@ Esse comando executa:
 
 Arquivo esperado:
 
-    sprint3/docs/prints/count_predicts.png
+    docs/prints/count_predicts.png
 
 ------------------------------------------------------------------------
 
