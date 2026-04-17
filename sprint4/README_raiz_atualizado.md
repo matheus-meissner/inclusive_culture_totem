@@ -55,7 +55,7 @@ streamlit run dashboard/app.py
 
 ## 🎬 Vídeo de Apresentação
 
-> 🔗 Link YouTube (não listado): 
+> 🔗 Link YouTube (não listado): https://youtu.be/lpHy-NsB8sE
 
 ---
 
